@@ -21,7 +21,7 @@ function Register (props){
       const handleSubmit=async (e)=>{
       e.preventDefault();
       const {username,password} = credentials;
-      const response = await fetch("https://resume-maker-4.onrender.com/reg/createuser",{
+      const response = await fetch("https://resume-builder-zi6f.onrender.com/reg/createuser",{
       method:'POST',
         headers:{
           'Content-Type': 'application/json'
@@ -83,3 +83,4 @@ function Register (props){
 }
 
 export default Register;
+
