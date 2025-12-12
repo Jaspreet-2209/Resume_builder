@@ -16,7 +16,7 @@ function Login (props){
       let navigate=useNavigate();
       const handleSubmit=async (e)=>{
       e.preventDefault();
-      const response = await fetch("https://resume-maker-4.onrender.com/reg/login",{
+      const response = await fetch("https://resume-builder-zi6f.onrender.com/reg/login",{
         method:'POST',
         headers:{
           'Content-Type': 'application/json'
@@ -77,3 +77,4 @@ function Login (props){
 }
 
 export default Login;
+
